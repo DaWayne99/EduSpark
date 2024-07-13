@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="codeditor.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="code-editor">
+        <h2>Code Editor</h2>
+        <div class="editor-container">
+            <div class="editor">
+                <h3>HTML</h3>
+                <textarea id="html-code" placeholder="Write HTML code here"></textarea>
+            </div>
+            <div class="editor">
+                <h3>CSS</h3>
+                <textarea id="css-code" placeholder="Write CSS code here"></textarea>
+            </div>
+            <div class="editor">
+                <h3>JavaScript</h3>
+                <textarea id="js-code" placeholder="Write JavaScript code here"></textarea>
+            </div>
+        </div>
+        <button onclick="runCode()">Run Code</button>
+        <iframe id="output" class="output"></iframe>
+    </section>
+</body>
+</html>
